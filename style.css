@@ -1,0 +1,45 @@
+#venn {
+  text-align: center;
+  width: 100%;
+}
+#inputs {
+  text-align: center;
+  right: 30px;
+  border: 2px solid;
+  padding: 10px;
+  position: absolute;
+}
+
+input[type="checkbox"] {
+  text-align: left;
+}
+
+.venntooltip {
+  position: absolute;
+  text-align: center;
+  width: 230px;
+  height: 22px;
+  background: #333;
+  color: #ddd;
+  border: 0px;
+  border-radius: 8px;
+  opacity: 0;
+}
+
+
+circle {
+  /* fill: #ccc;
+  fill-opacity: 0.6; */
+  stroke: #bbb;
+  stroke-width: 1px;
+}
+circle:hover {
+  fill: #bbb;
+  stroke: #999;
+}
+text {
+  text-anchor: middle;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
